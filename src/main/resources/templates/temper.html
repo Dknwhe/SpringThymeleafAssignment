@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature</title>
+</head>
+<body>
+    <div>
+        <form th:action ="@{temperature}" method="post">
+            <input type="text" id="temper" name="temper" placeholder="Temperature">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
